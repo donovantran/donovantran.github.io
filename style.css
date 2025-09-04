@@ -64,4 +64,12 @@ body {
     gap: 20px;
     color: white;
   }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12,90px);
+    gap: 15px;
+    width: 1440px;
+    margin: 0 auto;
+  }
   
